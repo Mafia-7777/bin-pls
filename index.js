@@ -26,8 +26,8 @@ module.exports = class{
                 res.once("data", chunk => {
                     data += chunk
                     this.raw = data;
-                    this.json = JSON.parse(data.raw);
-                    this.link = `https://hasteb.in/${data.json.key}`
+                    this.json = JSON.parse(data);
+                    this.link = `https://hasteb.in/${this.json.key}`
                     resolve()
                 });
             });

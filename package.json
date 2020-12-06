@@ -1,0 +1,21 @@
+{
+  "name": "bin-pls",
+  "version": "1.0.0",
+  "description": "An npm package to upload code to a pastbin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mafia-boss-lvl-420/bin-pls.git"
+  },
+  "keywords": [
+    "bin",
+    "pastebin",
+    "hastebin"
+  ],
+  "author": "Mafia#7777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mafia-boss-lvl-420/bin-pls/issues"
+  },
+  "homepage": "https://github.com/Mafia-boss-lvl-420/bin-pls#readme"
+}
